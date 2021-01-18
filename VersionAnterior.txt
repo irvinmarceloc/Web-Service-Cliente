@@ -1,0 +1,12 @@
+/*
+    Esta funcionaba en versiones anteriores
+    public async list (req: Request, res: Response): Promise<void> {
+        res.json({text: 'Listing games'});
+        const games = await pool.query('SELECT * FROM games');
+        //const games = await Promise.resolve(pool.query('SELECT * FROM games'));
+        //res.json({games});
+    } 
+*/
+    
+//Servia para avisar que funciona algo
+//res.json({text: 'This is game '+ req.params.id});
